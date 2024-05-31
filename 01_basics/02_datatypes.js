@@ -45,4 +45,4 @@ console.log(typeof("aashirbad"));
 console.log(typeof "aashirbad");
 
 
-// Mistake in 7th line of code which is done to just explain
+// Mistake in 7th line of code which is done to just explain this content
