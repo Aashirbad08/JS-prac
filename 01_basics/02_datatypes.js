@@ -40,6 +40,9 @@ console.log(typeof "aashirbad"); //string
 console.log(typeof 1111); //number
 console.log(typeof undefined); //undefined
 console.log(typeof null); //object
+// there are 2 ways to check the type of datatype it is
+console.log(typeof("aashirbad"));
+console.log(typeof "aashirbad");
 
 
 // Mistake in 7th line of code which is done to just explain
