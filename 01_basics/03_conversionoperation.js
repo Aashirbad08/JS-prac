@@ -57,7 +57,7 @@ console.log(1+2+"2"); //32
 console.log(1+2+"3"+"4"); //334
 console.log("3"+"4"+1+2); //3412
 /*This says in JS the string to number conversion  is confusing i.e. if the string is in first place
-then JS visualize all the value as string and will gfive the o/p in string value & if the first value
+then JS visualize all the value as string and will give the o/p in string value & if the first value
 is number itself the it will give the o/p in Number Format but the datatype will be string*/
 
 // Some more investigation
@@ -103,4 +103,4 @@ is a lot difference between prefix and postfix which will be explained further*/
 // MDN Reference - Provided by Mozilla Organization which is easily readable and recommended*/
 
 
-// Mistake in 78th line of code which is done to just explain this content
+// Mistake in 80th line of code which is done to just explain this content
