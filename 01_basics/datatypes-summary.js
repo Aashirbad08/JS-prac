@@ -13,7 +13,6 @@ This iz what called as Primitive Datatype.
 Array,Object,Function
 */
 
-
 /*Difference between Call By Value and Call By Reference
 In call by value method of parameter passing, the values of actual parameters are copied 
 to the function’s formal parameters.
