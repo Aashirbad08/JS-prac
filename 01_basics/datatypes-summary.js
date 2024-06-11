@@ -114,3 +114,44 @@ All the primitive datatype are returned as functions and the functions type is g
 /*Reference of ECMA Script for typeof operator results.
 https://262.ecma-international.org/5.1/#sec-11.4.3
 */
+
+// ---------------------------------------------------------MEMORY------------------------------------------------------
+
+/*
+Memories are of 2 types --- Stack and Heap Memory
+Stack Memory is generally used where Primitive Datatypes are used. &
+Heap Memory is generally used where Non-Primitive Datatypes are used.
+
+Whenever the Stack Memory is used then you get a copy of the variables you have declared, So any changes made ot will directly
+reflect in the copy you get, not in the original values.
+Whenever the heap memory is used then you will get the reference this means the changes will be reflecting in the original value content.
+*/
+// Examples of Stack Memory:-
+let myname = "lipun";
+let anothername = myname;
+anothername = "aashirbad"
+console.log(myname); //lipun
+console.log(anothername); //aashirbad
+/*
+As you have declared 2 variables that s myname and anothername it is reflected in the memory but as you said the value of anothername
+will be myname then the copy of myname will be reflected in the memory and all the changes will be reflected in the copy not in the
+original content.
+So the myname value remains constant and it gives the original data and the anothername shows the changed value.
+*/
+
+// Lets Check with another example
+let user1 = {
+    email : "user@gmail.com",
+    upi : "user@ybl",
+}
+let user2 = user1
+user2.email = "aashirbad@yahoo.com" //it means the email need to be changed 
+console.log(user1.email);
+console.log(user2.email);
+/*
+here you can see that both the values of user1 as well as user2 has been changed that is here the value of user2 will get the reference
+of user1 and the cahnges which are done in the user2 will directly change the original content as it is a Heap memory as here it is a
+Non-Primitive datatype (OR) Reference Datatype.
+BUT in case of Stack Memory we were getting a copy of the original memory so here the original content is not getting changed the changes
+are only reflected in the copy content.
+*/
