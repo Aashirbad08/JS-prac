@@ -1,3 +1,10 @@
+/*
+String - The String object is used to represent and manipulate a sequence of characters.
+Strings are useful for holding data that can be represented in text form. Some of the most-used operations on 
+strings are to check their length, to build and concatenate them using the + and += string operators, checking 
+for the existence or location of substrings with the indexOf() method, or extracting substrings with the 
+substring() method.
+*/
 const name = "lipun"
 const repocount = 50
 console.log(name + repocount + " Value");
@@ -120,3 +127,31 @@ produces a particular result or effect.
 let rating = "one"
 console.log(`Aashirbad is a number ${rating} Student.`); //Aashirbad is a number one Student.
 
+//Lets see some methods to discuss the strings in details:-
+//strings MDN docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+/*String() constructor:- 
+The String() constructor creates String objects. When called as a function, it returns primitive values of type String.
+String() can be called with or without new, but with different effects.
+When String() is called as a function (without new), it returns value coerced to a string primitive. Specially, Symbol 
+values are converted to "Symbol(description)", where description is the description of the Symbol, instead of throwing.
+
+When String() is called as a constructor (with new), it coerces value to a string primitive (without special symbol handling)
+and returns a wrapping String object, which is not a primitive.
+
+Warning: You should rarely find yourself using String as a constructor.*/
+
+/*
+anchor [String.prototype.anchor()] <a> :-
+*/
+
+
+
+
+
+
+
+
+
+
+// string will be uodated slowly as it is vast concept
