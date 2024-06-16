@@ -94,8 +94,12 @@ console.log(typeof myobj); //object
 
 // But by the theory of ECMA Script what value the typeof operator will give :-
 /*
+Primitive Datatypes:-The predefined data types provided by JavaScript language are known as primitive data types. Primitive data 
+types are also known as in-built data types.
+Non-Primitve Datatyes:- The data types that are derived from primitive data types of the JavaScript language are known as non-primitive 
+data types. It is also known as derived data types or reference data types.
 Return type of variables in JavaScript
-1) Primitive Datatypes
+1) Primitive Datatypes:- 7 types
        Number => number
        String  => string
        Boolean  => boolean
@@ -104,7 +108,7 @@ Return type of variables in JavaScript
        Symbol  =>  symbol
        BigInt  =>  bigint
 
-2) Non-primitive Datatypes
+2) Non-primitive Datatypes:- 3 types
        Arrays  =>  object
        Function  =>  function
        Object  =>  object
