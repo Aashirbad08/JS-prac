@@ -21,7 +21,7 @@ can be changed or not*/
 
 
 /*In JS there are 2 ways to declare the variables that is let and var ,but don't use var as
- because of issues in Block Scope and Functional Scope*/
+because of issues in Block Scope and Functional Scope*/
 
 /*There is another way to declare a variable just by directly assigning the variable without using any commands
 like var and let but it is not recommended as it will sometime show error as well as it will show an 
