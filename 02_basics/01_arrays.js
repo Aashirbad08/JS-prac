@@ -44,5 +44,51 @@ square brackets the system will automatically take the square brackets.*/
 
 /*
 Array Methods:-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array here is the link for the number of array methods
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array here is the link for the number
+of array methods 
 */
+myarr.push(6)
+myarr.push(7,8)
+console.log(myarr);//[ 1, 2, 3, 4, 5, 6, 7, 8 ]the push method adds the value to the array.
+myarr.pop()//there is no requirement of giving any argument to the pop  method.
+console.log(myarr);//[1, 2, 3, 4, 5, 6, 7 ] the pop method removes the last value inside the array.
+
+myarr.unshift(9)
+console.log(myarr);//[9, 1, 2, 3, 4, 5, 6, 7 ]it inserts the given value in the starting of the array.
+/*Because it is inserted in the starting of the array because of that all the array values are shifted , as of now here there
+are less value but it will consume a lot of time in the large projects and will prssurise the computer.
+IT IS NOT OPTIMISED SO IT IS NOT USEFULL.*/
+myarr.shift()//there is no requirement of giving any argument to the shift method.
+console.log(myarr);//[1, 2, 3, 4, 5, 6, 7 ] the shift method removes the first value inside the array.
+
+//there is some Q/A method in js generally we ask them the questions:-
+console.log(myarr.includes(9))//false
+console.log(typeof(myarr.includes(9)))//boolean
+
+console.log(myarr.indexOf(5));//4
+//lets check what the result come when we asks the index of a non existing number
+console.log(myarr.indexOf(9));//-1
+console.log(myarr.indexOf(19));//-1 if ask any non-existing value then it will ans it as -1 that says the value is not present
+
+//join- Adds all the elements of an array into a string, separated by the specified separator string.
+const newarr = myarr.join();
+console.log(myarr);//[1, 2, 3, 4, 5, 6, 7 ]
+console.log(newarr);//1,2,3,4,5,6,7
+console.log(typeof(myarr));//object (array)
+console.log(typeof(newarr));//string
+// so from this we come to know that join method bind it with the new variable as well as it convert it into string also.\
+
+//slice,splice
+console.log("A",myarr);// A [1, 2, 3, 4, 5, 6, 7 ]
+const myn1 = myarr.slice(1,4)
+console.log(myn1);// [ 2, 3, 4 ]
+console.log("B",myarr);// B [1, 2, 3, 4, 5, 6, 7 ]
+const myn2 = myarr.splice(1,4)
+console.log(myn2);// [ 2, 3, 4, 5 ]
+console.log("C",myarr);// C [ 1, 6, 7 ]
+/*So the difference between slice and splice methods is that in the slice method the range is not included.
+And in the splice method the range is included....BUT there is a main difference between these two methods-
+That the splice methods manipulates the original array that it removes the elements where as the slice
+Methods dont.*/
+ 
+
