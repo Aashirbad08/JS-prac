@@ -2,4 +2,4 @@ ALL THE REQUIRED DEFn RELATED TO JAVASCIPT.
 literals 
 constructer
 variable
-string inerpolation
+string interpolation
