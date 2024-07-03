@@ -67,8 +67,8 @@ console.log(Array.from("aashirbad"));//[ 'a', 'a', 's', 'h', 'i', 'r', 'b', 'a',
 //To convert the values into array format instead of isarray we use from to convert it.
 //lets check to convert object into array:-
 console.log(Array.from({name: "lipun"}));//[]
-/* it is an interesting case for the intwerview as it cannot convert it directly.we have to give weather we have to
-make say weather to make the array of the key or of value. If it cannot make the array then it will always returns 
+/* it is an interesting case for the intwerview as it cannot convert it directly.we have to give what we have to
+process say weather to process the array of the key or of value. If it cannot process the array then it will always returns 
 the empty array.we will learn it in further studies. 
 */
 
