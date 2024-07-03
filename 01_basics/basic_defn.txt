@@ -1,5 +1,6 @@
 ALL THE REQUIRED DEFn RELATED TO JAVASCIPT.
 literals 
 constructor
+keywords
 variable
 string interpolation
