@@ -80,3 +80,27 @@ not a string it is syymbol datatype.
 */
 
 //lets add the function to it :-
+//here in the function there is no discrimination we can treat the functions as same as the variables.
+ jsuser.greeting = function(){
+  console.log("hello js user");
+ }
+/*console.log(jsuser.greeting);//[Function (anonymous)]  here it came as an anonymos so here the function rturned back as it shows the
+ anonymus reference to the function*/
+console.log(jsuser.greeting());//hello js user here the value came and it will strictly wont work if you have freezed the object.
+
+//lets learn to refer a name in the object:-
+jsuser.greetingtwo = function(){
+  console.log(`hello JS user, ${this["full name"]}`)//hello JS user, aashirbad padhi
+  console.log(`hello JS user, ${this.first_name}`)//hello JS user, aashirbad
+}
+console.log(jsuser.greetingtwo());
+
+/*
+so to refer any thing from the object we use backtick that is generally refered as the string interpolation and within which we use the $symbol
+and the curly braces within the curly braces you have to use "this" keyword after using this. you will be getting all the access to the object
+"this" plays an important role wich ill be discussed further in the course.
+*/
+/*
+FINAL NOTE:- Whenever you access the values generally you will access it by the helpof .(dot) but there will be some of the special cases where
+you will be using [""] and [](spcially for thesymbol category.) 
+*/
