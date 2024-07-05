@@ -217,3 +217,5 @@ const { courseInstructor: instructor} = course;
 console.log(instructor);//AI
 //These are what called as de-structuring of the objects.
 
+
+
