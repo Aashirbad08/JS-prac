@@ -189,3 +189,31 @@ __proto__: (...)
 get __proto__: ƒ __proto__()
 set __proto__: ƒ __proto__()
 */
+
+// de-structuring - It takes place both in array as-well-as in the object
+//But now lets talk about objects 
+/*you will use this several times for example when you will work with the react hen you will find the objects then
+you have to t=de-structure the objects then you have to take the values for further procedings.*/
+const course ={
+    coursename: "java script",
+    price : "999",
+    courseInstructor: "AI"
+}  
+//for instance if you have to print the couse instructor
+console.log(course.courseInstructor)//AI
+console.log(course.price);//999
+/*suppose you have to print all the key values then every time course.xxx,course.xyz,course.zzz is not a clean as 
+well as a professional code.*/ 
+//to overcome this problem there is an syntax i.e.
+// const {courseInstructor} = course;
+// console.log(courseInstructor);//AI
+const {courseInstructor,coursename,price} = course;
+console.log(price);//999
+console.log(courseInstructor);//AI
+console.log(coursename);//java script
+
+// if you want to change the name of the keys of the values then 
+const { courseInstructor: instructor} = course;
+console.log(instructor);//AI
+//These are what called as de-structuring of the objects.
+
