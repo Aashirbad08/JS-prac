@@ -216,6 +216,9 @@ console.log(coursename);//java script
 const { courseInstructor: instructor} = course;
 console.log(instructor);//AI
 //These are what called as de-structuring of the objects.
-
-
-
+//lets tal some of the examples of raec what destructuring is:-
+// const navbar = ({company}) => {
+// }
+// navbar(company = 'aashu')
+/*here we never talk that much in detail bcz whenever you code in react there is a basic understanding about 
+js and whenever you will see curly braces lets assume that the de-structing takes place.*/
