@@ -216,9 +216,30 @@ console.log(coursename);//java script
 const { courseInstructor: instructor} = course;
 console.log(instructor);//AI
 //These are what called as de-structuring of the objects.
-//lets tal some of the examples of raec what destructuring is:-
+//lets take some of the examples of raec what destructuring is:-
 // const navbar = ({company}) => {
 // }
 // navbar(company = 'aashu')
 /*here we never talk that much in detail bcz whenever you code in react there is a basic understanding about 
 js and whenever you will see curly braces lets assume that the de-structing takes place.*/
+
+// API 
+//JSON - JavaScript Object Notation.
+/*{
+    name: 'aashirbad',
+    specialization: 'js',
+    cost: "free"
+}
+    This is not an object because the object has some of the names but if it is written like this then it is 
+considered as JSON,we later on hold this in the variables but if you want a proper JSON structure then:-
+*/
+// {
+//     "name": 'aashirbad',
+//     "specialization": 'js',
+//     "cost": "free"
+// }
+//here the perfect syntax for the json is, the key as well as the value both will be in the string format.
+//here also u'll face some of the errors but the syntax is perfectly correct.
+
+//lets see how actually we get the API from the json?
+//How we can call API from the json.
